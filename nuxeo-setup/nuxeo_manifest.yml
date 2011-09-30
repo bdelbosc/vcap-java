@@ -1,8 +1,7 @@
 ---
-version: 5.4.2
-download_uri: http://community.nuxeo.com/static/releases/nuxeo-5.4.2/nuxeo-cap-5.4.2-tomcat.zip
-#download_uri: http://localhost/nuxeo-cap-5.4.2-tomcat.zip
-md5_uri: http://community.nuxeo.com/static/releases/nuxeo-5.4.2/nuxeo-cap-5.4.2-tomcat.zip.md5
+version: 5.4.3
+download_uri: http://community.nuxeo.com/static/snapshots/nuxeo-dm-5.4.3-I20110930_0115-tomcat.zip
+md5_uri: http://community.nuxeo.com/static/snapshots/nuxeo-dm-5.4.3-I20110930_0115-tomcat.zip.md5
 
 replace_files: [conf/context.xml]
 clear_dirs: []
