@@ -46,6 +46,8 @@ namespace "nuxeo" do
     handle_clear_dirs
     handle_remove_files_and_dirs
     handle_add_jars
+    # nuxeo plugins directories does not exists before startup
+    FileUtils.mkdir_p(File.join(@targetdir, File.join('nxserver', 'plugins')))
     Dir.chdir(@download_dest) do
       system "zip -q -r nuxeo.zip nuxeo"
     end
